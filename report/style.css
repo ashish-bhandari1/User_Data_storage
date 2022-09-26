@@ -1,0 +1,65 @@
+table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+th { 
+	background: #3498db; 
+	color: white; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+	}
+
+.labels tr td {
+	background-color: #2cc16a;
+	font-weight: bold;
+	color: #fff;
+}
+
+.label tr td label {
+	display: block;
+}
+
+
+[data-toggle="toggle"] {
+	display: none;
+}
+.container{
+	margin: 3% auto;
+	text-align: center;
+}
+.container h4{
+	text-align: center;
+	font-size: 22px;
+	text-transform: capitalize;
+}
+.container table{
+	margin: 0 auto;
+	max-width: 500px;
+}
+.container button{
+	margin: 20px auto;
+	padding: 5px 8px;
+	color:#fff;
+	background-color: rgb(1, 200, 17);
+	border: none;
+	font-size: 16px;
+	border-radius: 2px;
+
+}
+
+form{
+	padding: 10px;
+	margin: 4% auto;
+	background-color: rgb(223, 226, 226);
+	max-width: 500px;
+	border-radius: 2px;
+
+}
